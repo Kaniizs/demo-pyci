@@ -16,8 +16,8 @@ class StatisticsTest(TestCase):
             var = variance([])
 
     def test_stdev(self):
-        self.assertEqual(0.0, stdev[10,10,10])
-        self.assertEqual(3.0, stdev[12,14,16])
+        self.assertEqual(0.0, stdev([10,10,10]))
+        self.assertEqual(3.0, stdev([12,14,16]))
 
 if __name__ == '__main__':
     import unittest
