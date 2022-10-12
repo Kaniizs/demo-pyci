@@ -1,6 +1,7 @@
 Continuous Integration Demo
 ============================
 ![Unittest](https://github.com/oMojiko/demo-pyci/actions/workflows/TestCI.yml/badge.svg)
+[![codecov](https://codecov.io/gh/oMojiko/demo-pyci/branch/main/graph/badge.svg?token=QKSERRR8BT)](https://codecov.io/gh/oMojiko/demo-pyci)
 
 This project demonstrates use of Github Actions to build and test a Python project.  
 Create a repository on Github, then use Github Actions to build and test it.
