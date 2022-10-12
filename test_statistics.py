@@ -17,7 +17,7 @@ class StatisticsTest(TestCase):
 
     def test_stdev(self):
         self.assertEqual(0.0, stdev([10,10,10]))
-        self.assertEqual(2.0, stdev([12,14,16]))
+        self.assertEqual(2.0, stdev([20,28]))
 
 if __name__ == '__main__':
     import unittest
